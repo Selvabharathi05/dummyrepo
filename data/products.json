@@ -1,0 +1,48 @@
+{
+    "products" :[
+        {
+            "id" : 2,
+            "name" : "$25 Virtual Gift Card",
+            "price" : "25.00",
+            "type" : "giftcard",
+            "quantity" : 2,
+            "attributes" : {
+                "RecipientName" : "Alves",
+                "RecipientEmail": "Test@gmail.com",
+                "SenderName" : "Bharathi",
+                "SenderEmail": "alves@gmail.com",
+                "Message" : "Happy Shopping"
+            }
+        },
+        {
+            "id" : 31,
+            "name" : "14.1-inch Laptop",
+            "price" : "1590.00",
+            "quantity" : 3
+        },
+        {
+            "id" : 72,
+            "name" : "Build your own cheap computer",
+            "price": "815.00", 
+            "quantity" : 3,
+            "type": "attribute",
+            "attributes" : {
+                "product_attribute_72_5_18" : 53,
+                "product_attribute_72_6_19" : 54,
+                "product_attribute_72_3_20" : 57
+            }
+        },
+        {
+            "id" : 71,
+            "name" : "Create Your Own Jewelry",
+            "price" : "100.00",
+            "quantity" : 2,
+            "type" : "attribute",
+            "attributes" : {
+                "product_attribute_71_9_15" : 45,
+                "product_attribute_71_10_16" : 12,
+                "product_attribute_71_11_17" : 51
+            }
+        }
+    ]
+}
