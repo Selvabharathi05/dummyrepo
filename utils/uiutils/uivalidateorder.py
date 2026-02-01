@@ -19,6 +19,8 @@ class ValidateOrder:
             price = row.locator("td.price").inner_text().strip()
             product_qty = int(row.locator("td.quantity").inner_text())
 
+            # validate
+
             assert product_name == js_name
             assert price == js_price
             assert js_qty == product_qty
